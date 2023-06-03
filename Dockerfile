@@ -1,4 +1,4 @@
-FROM docker.io/huggingface/transformers-pytorch-cpu
+FROM python:3.9-slim-buster
 
 COPY . /workspace
 WORKDIR /workspace
